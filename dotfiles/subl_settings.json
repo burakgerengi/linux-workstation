@@ -1,0 +1,95 @@
+
+{
+    // ==========================================
+    // APPEARANCE & TYPOGRAPHY
+    // ==========================================
+
+    "theme": "Adaptive.sublime-theme",
+    "color_scheme": "Monokai.sublime-color-scheme",
+
+    "font_face": "JetBrainsMono Nerd Font",
+    "font_size": 18,
+
+    // Extra spacing for comfortable reading
+    "line_padding_top": 3,
+    "line_padding_bottom": 3,
+
+    // Smooth, slightly thicker cursor
+    "caret_style": "smooth",
+    "caret_extra_width": 1,
+
+
+    // ==========================================
+    // EDITOR VISUALS
+    // ==========================================
+
+    "line_numbers": true,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+
+    // Indentation guides
+    "draw_indent_guides": true,
+    "indent_guide_options": [
+        "draw_normal",
+        "draw_active"
+    ],
+
+    // Show whitespace only when selected
+    "draw_white_space": "selection",
+
+    // Bracket matching
+    "match_brackets": true,
+    "match_brackets_content": true,
+
+    // Column guide and intelligent wrapping
+    "rulers": [88],
+    "word_wrap": "auto",
+
+    // Easier navigation
+    "draw_minimap_border": true,
+    "scroll_past_end": true,
+    "mini_diff": true,
+
+
+    // ==========================================
+    // INDENTATION & FORMATTING
+    // ==========================================
+
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+
+    // Enforce consistent 4-space indentation
+    "detect_indentation": false,
+    "use_tab_stops": true,
+
+    // Smart automatic indentation
+    "auto_indent": true,
+    "smart_indent": true,
+    "trim_automatic_white_space": true,
+
+
+    // ==========================================
+    // FILE SAVING & CLEANUP
+    // ==========================================
+
+    // Remove trailing whitespace on save
+    "trim_trailing_white_space_on_save": true,
+
+    // Ensure files end with a newline
+    "ensure_newline_at_eof_on_save": true,
+
+    // Show useful file information
+    "show_encoding": true,
+    "show_line_endings": true,
+
+
+    // ==========================================
+    // PERFORMANCE & PACKAGES
+    // ==========================================
+
+    "index_files": true,
+
+    "ignored_packages": [
+        "Vintage"
+    ]
+}
